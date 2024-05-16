@@ -21,4 +21,4 @@ jobs:
       run: mvn -B install --file pom.xml
             
     - name: Coveralls
-      run: mvn -B coveralls:report --define repoToken=${{ secrets.COVERALLS_REPO_TOKEN }}
+      run: mvn -B coveralls:report --define repoToken=${{ secrets.TOKEN_COVERALLS }}
