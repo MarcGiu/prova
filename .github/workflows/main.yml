@@ -14,6 +14,6 @@ jobs:
     - name: Build with Maven
       run: mvn -B install --file pom.xml
     - name: Send report to Coveralls
-      run: mvn clean test jacoco:report coveralls:report -Drepotoken=${{ secrets.COVERALLS_REPO_TOKEN }}
+      run: mvn clean test jacoco:report coveralls:report -Drepotoken=${{ secrets.TOKEN_COVERALLS }}
       env:
-          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+          COVERALLS_REPO_TOKEN: ${{ secrets.TOKEN_COVERALLS }}
