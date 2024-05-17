@@ -116,7 +116,7 @@
       <artifactId>coveralls-maven-plugin</artifactId>
       <version>4.3.0</version>
       <configuration>
-        <repoToken>KiKV1lCoaDTuT6l5P0ZDuQs2yfLkIH8zx</repoToken>
+        <!--<repoToken>KiKV1lCoaDTuT6l5P0ZDuQs2yfLkIH8zx</repoToken>-->
       </configuration>
       <dependencies>
         <dependency>
